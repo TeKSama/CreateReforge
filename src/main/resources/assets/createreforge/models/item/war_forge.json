@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "create:block/andesite_casing",
+    "casing": "create:block/andesite_casing",
+    "tool": "createreforge:block/war_forge_tool_input",
+    "output": "createreforge:block/war_forge_output",
+    "material": "createreforge:block/war_forge_material_input",
+    "lava": "createreforge:block/war_forge_lava_input",
+    "rotation": "createreforge:block/war_forge_rotation_input"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0], "to": [16, 16, 16],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#tool" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#output" },
+        "east":  { "uv": [0, 0, 16, 16], "texture": "#material" },
+        "west":  { "uv": [0, 0, 16, 16], "texture": "#casing" },
+        "up":    { "uv": [0, 0, 16, 16], "texture": "#casing" },
+        "down":  { "uv": [0, 0, 16, 16], "texture": "#casing" }
+      }
+    },
+    {
+      "from": [-16, 0, 0], "to": [0, 16, 16],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#lava" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#casing" },
+        "east":  { "uv": [0, 0, 16, 16], "texture": "#casing" },
+        "west":  { "uv": [0, 0, 16, 16], "texture": "#rotation" },
+        "up":    { "uv": [0, 0, 16, 16], "texture": "#casing" },
+        "down":  { "uv": [0, 0, 16, 16], "texture": "#casing" }
+      }
+    }
+  ],
+  "display": {
+    "gui":                { "rotation": [30, 225, 0], "translation": [0, 0, 0], "scale": [0.32, 0.32, 0.32] },
+    "ground":             { "rotation": [0, 0, 0], "translation": [0, 3, 0], "scale": [0.25, 0.25, 0.25] },
+    "fixed":              { "rotation": [0, 180, 0], "translation": [0, 0, 0], "scale": [0.3, 0.3, 0.3] },
+    "thirdperson_righthand": { "rotation": [75, 45, 0], "translation": [0, 2.5, 0], "scale": [0.24, 0.24, 0.24] },
+    "firstperson_righthand": { "rotation": [0, 45, 0], "translation": [0, 0, 0], "scale": [0.3, 0.3, 0.3] },
+    "firstperson_lefthand":  { "rotation": [0, 225, 0], "translation": [0, 0, 0], "scale": [0.3, 0.3, 0.3] }
+  }
+}

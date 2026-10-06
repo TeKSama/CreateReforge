@@ -1,0 +1,24 @@
+{
+  "categories": [
+    "tool"
+  ],
+  "effect": {
+    "type": "attribute",
+    "attribute": "minecraft:player.block_interaction_range",
+    "operation": "add_value"
+  },
+  "tiers": [
+    {
+      "min": 0.5,
+      "max": 1.0
+    },
+    {
+      "min": 1.0,
+      "max": 2.0
+    },
+    {
+      "min": 2.0,
+      "max": 3.0
+    }
+  ]
+}

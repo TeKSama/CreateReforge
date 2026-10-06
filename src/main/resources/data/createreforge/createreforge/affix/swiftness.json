@@ -1,0 +1,25 @@
+{
+  "categories": [
+    "weapon"
+  ],
+  "effect": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.attack_speed",
+    "operation": "add_multiplied_base"
+  },
+  "tiers": [
+    {
+      "min": 0.04,
+      "max": 0.06
+    },
+    {
+      "min": 0.1,
+      "max": 0.15
+    },
+    {
+      "min": 0.25,
+      "max": 0.4
+    }
+  ],
+  "percent": true
+}

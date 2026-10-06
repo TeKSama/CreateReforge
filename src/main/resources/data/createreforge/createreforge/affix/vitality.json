@@ -1,0 +1,24 @@
+{
+  "categories": [
+    "armor"
+  ],
+  "effect": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add_value"
+  },
+  "tiers": [
+    {
+      "min": 1,
+      "max": 2
+    },
+    {
+      "min": 2,
+      "max": 4
+    },
+    {
+      "min": 4,
+      "max": 6
+    }
+  ]
+}

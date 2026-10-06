@@ -1,0 +1,25 @@
+{
+  "categories": [
+    "elytra"
+  ],
+  "effect": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.gravity",
+    "operation": "add_multiplied_base"
+  },
+  "tiers": [
+    {
+      "min": -0.05,
+      "max": -0.03
+    },
+    {
+      "min": -0.1,
+      "max": -0.06
+    },
+    {
+      "min": -0.2,
+      "max": -0.12
+    }
+  ],
+  "percent": true
+}

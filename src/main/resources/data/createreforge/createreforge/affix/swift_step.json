@@ -1,0 +1,25 @@
+{
+  "categories": [
+    "armor"
+  ],
+  "effect": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "add_multiplied_base"
+  },
+  "tiers": [
+    {
+      "min": 0.02,
+      "max": 0.03
+    },
+    {
+      "min": 0.04,
+      "max": 0.06
+    },
+    {
+      "min": 0.08,
+      "max": 0.12
+    }
+  ],
+  "percent": true
+}

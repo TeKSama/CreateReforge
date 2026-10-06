@@ -1,0 +1,24 @@
+{
+  "categories": [
+    "weapon"
+  ],
+  "effect": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add_value"
+  },
+  "tiers": [
+    {
+      "min": 1,
+      "max": 2
+    },
+    {
+      "min": 3,
+      "max": 5
+    },
+    {
+      "min": 8,
+      "max": 12
+    }
+  ]
+}

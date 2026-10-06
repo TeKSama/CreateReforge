@@ -1,0 +1,272 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "create:block/andesite_casing",
+    "casing": "create:block/andesite_casing",
+    "lava_input": "createreforge:block/war_forge_lava_input",
+    "rotation_input": "createreforge:block/war_forge_rotation_input",
+    "scorch": "minecraft:block/blackstone",
+    "lava": "minecraft:block/lava_still"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lava_input"
+        },
+        "south": {
+          "texture": "#casing"
+        },
+        "east": {
+          "texture": "#casing"
+        },
+        "west": {
+          "texture": "#rotation_input"
+        },
+        "down": {
+          "texture": "#casing"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        16,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        5
+      ],
+      "faces": {
+        "up": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            0,
+            16,
+            5
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        16,
+        11
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            11,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        16,
+        5
+      ],
+      "to": [
+        5,
+        16,
+        11
+      ],
+      "faces": {
+        "up": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            5,
+            5,
+            11
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        11,
+        16,
+        5
+      ],
+      "to": [
+        16,
+        16,
+        11
+      ],
+      "faces": {
+        "up": {
+          "texture": "#casing",
+          "uv": [
+            11,
+            5,
+            16,
+            11
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        8,
+        5
+      ],
+      "to": [
+        11,
+        16,
+        5
+      ],
+      "faces": {
+        "south": {
+          "texture": "#scorch",
+          "uv": [
+            5,
+            0,
+            11,
+            8
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        8,
+        11
+      ],
+      "to": [
+        11,
+        16,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#scorch",
+          "uv": [
+            5,
+            0,
+            11,
+            8
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        8,
+        5
+      ],
+      "to": [
+        5,
+        16,
+        11
+      ],
+      "faces": {
+        "east": {
+          "texture": "#scorch",
+          "uv": [
+            5,
+            0,
+            11,
+            8
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        11,
+        8,
+        5
+      ],
+      "to": [
+        11,
+        16,
+        11
+      ],
+      "faces": {
+        "west": {
+          "texture": "#scorch",
+          "uv": [
+            5,
+            0,
+            11,
+            8
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        8,
+        5
+      ],
+      "to": [
+        11,
+        8,
+        11
+      ],
+      "faces": {
+        "up": {
+          "texture": "#scorch",
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        9,
+        5
+      ],
+      "to": [
+        11,
+        9,
+        11
+      ],
+      "faces": {
+        "up": {
+          "texture": "#lava",
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ]
+        }
+      }
+    }
+  ]
+}

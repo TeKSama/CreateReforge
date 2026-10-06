@@ -1,0 +1,25 @@
+{
+  "categories": [
+    "armor"
+  ],
+  "effect": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.knockback_resistance",
+    "operation": "add_value"
+  },
+  "tiers": [
+    {
+      "min": 0.05,
+      "max": 0.1
+    },
+    {
+      "min": 0.1,
+      "max": 0.2
+    },
+    {
+      "min": 0.25,
+      "max": 0.4
+    }
+  ],
+  "percent": true
+}

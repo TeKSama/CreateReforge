@@ -1,0 +1,24 @@
+{
+  "categories": [
+    "armor"
+  ],
+  "effect": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.armor_toughness",
+    "operation": "add_value"
+  },
+  "tiers": [
+    {
+      "min": 0.5,
+      "max": 1.0
+    },
+    {
+      "min": 1.0,
+      "max": 2.0
+    },
+    {
+      "min": 2.0,
+      "max": 3.0
+    }
+  ]
+}

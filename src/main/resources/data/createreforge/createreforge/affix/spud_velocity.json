@@ -1,0 +1,23 @@
+{
+  "categories": [
+    "potato_cannon"
+  ],
+  "effect": {
+    "type": "projectile_speed"
+  },
+  "tiers": [
+    {
+      "min": 0.05,
+      "max": 0.1
+    },
+    {
+      "min": 0.15,
+      "max": 0.25
+    },
+    {
+      "min": 0.3,
+      "max": 0.5
+    }
+  ],
+  "percent": true
+}

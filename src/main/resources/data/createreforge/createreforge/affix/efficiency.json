@@ -1,0 +1,24 @@
+{
+  "categories": [
+    "tool"
+  ],
+  "effect": {
+    "type": "attribute",
+    "attribute": "minecraft:player.mining_efficiency",
+    "operation": "add_value"
+  },
+  "tiers": [
+    {
+      "min": 1,
+      "max": 2
+    },
+    {
+      "min": 3,
+      "max": 5
+    },
+    {
+      "min": 6,
+      "max": 10
+    }
+  ]
+}

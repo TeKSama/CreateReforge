@@ -1,0 +1,23 @@
+{
+  "categories": [
+    "weapon"
+  ],
+  "effect": {
+    "type": "critical_chance"
+  },
+  "tiers": [
+    {
+      "min": 0.03,
+      "max": 0.05
+    },
+    {
+      "min": 0.08,
+      "max": 0.12
+    },
+    {
+      "min": 0.2,
+      "max": 0.3
+    }
+  ],
+  "percent": true
+}

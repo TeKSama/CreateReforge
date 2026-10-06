@@ -1,0 +1,22 @@
+{
+  "categories": [
+    "potato_cannon"
+  ],
+  "effect": {
+    "type": "piercing"
+  },
+  "tiers": [
+    {
+      "min": 1,
+      "max": 1
+    },
+    {
+      "min": 1,
+      "max": 2
+    },
+    {
+      "min": 2,
+      "max": 3
+    }
+  ]
+}

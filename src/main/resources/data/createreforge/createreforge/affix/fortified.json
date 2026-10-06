@@ -1,0 +1,24 @@
+{
+  "categories": [
+    "armor"
+  ],
+  "effect": {
+    "type": "attribute",
+    "attribute": "minecraft:generic.armor",
+    "operation": "add_value"
+  },
+  "tiers": [
+    {
+      "min": 1,
+      "max": 2
+    },
+    {
+      "min": 3,
+      "max": 4
+    },
+    {
+      "min": 5,
+      "max": 7
+    }
+  ]
+}

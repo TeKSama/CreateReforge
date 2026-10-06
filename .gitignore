@@ -1,0 +1,28 @@
+# Gradle and build output
+.gradle/
+build/
+out/
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+bin/
+
+# NeoForge dev runs: worlds, screenshots, options, logs, crash reports...
+run/
+run-data/
+runs/
+logs/
+crash-reports/
+
+# OS
+.DS_Store
+Thumbs.db
