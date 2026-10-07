@@ -12,7 +12,9 @@ import rbasamoyai.createbigcannons.munitions.ShellExplosion;
 
 /**
  * One of the small bombs scattered by a cluster shell: falls, and explodes on whatever it hits.
- * Drawn as a fire charge. Uses Create Big Cannons' shell explosion so its block-damage config applies.
+ * Drawn as a miniature cluster shell ({@link ClusterBombletRenderer}); the fire charge item below is
+ * only what vanilla shows in the rare places it draws a thrown item's particles.
+ * Uses Create Big Cannons' shell explosion so its block-damage config applies.
  */
 public class ClusterBomblet extends ThrowableItemProjectile {
 
