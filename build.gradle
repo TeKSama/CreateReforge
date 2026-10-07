@@ -113,6 +113,9 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 dependencies {
     implementation "maven.modrinth:create:${create_version}"
     compileOnly "net.createmod.ponder:ponder-neoforge:${ponder_version}"
+    // Optional: our shells only load when Create Big Cannons is installed (see compat/bigcannons).
+    compileOnly "maven.modrinth:create-big-cannons:${cbc_version}"
+    compileOnly "maven.modrinth:ritchiesprojectilelib:${rpl_version}"
 
     // Example mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime

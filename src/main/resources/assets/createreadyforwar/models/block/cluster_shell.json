@@ -1,0 +1,9 @@
+{
+  "parent": "createbigcannons:block/projectile_block",
+  "textures": {
+    "bottom": "createreadyforwar:block/projectile/cluster_shell_bottom",
+    "particle": "createreadyforwar:block/projectile/cluster_shell_top",
+    "side": "createreadyforwar:block/projectile/cluster_shell",
+    "top": "createreadyforwar:block/projectile/cluster_shell_top"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createbigcannons"
+    }
+  ],
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "F": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "P": {
+      "tag": "c:gunpowders"
+    },
+    "S": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "pattern": [
+    " I ",
+    "IFI",
+    "IPI",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "createreadyforwar:dispersal_shell"
+  },
+  "show_notification": false
+}

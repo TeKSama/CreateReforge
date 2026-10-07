@@ -25,7 +25,7 @@ displayName = "${mod_name}" #mandatory
 # A URL for the "homepage" for this mod, displayed in the mod UI
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-#logoFile="createreforge.png" #optional
+#logoFile="createreadyforwar.png" #optional
 # A text field displayed in the mod UI
 #credits="" #optional
 # A text field displayed in the mod UI
@@ -72,11 +72,19 @@ versionRange = "${minecraft_version_range}"
 ordering = "NONE"
 side = "BOTH"
 
-# Create Reforge is a Create addon: it registers kinetic blocks, so Create must be loaded first.
+# Create: Ready for War is a Create addon: it registers kinetic blocks, so Create must be loaded first.
 [[dependencies."${mod_id}"]]
 modId = "create"
 type = "required"
 versionRange = "[6.0.0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+# Create Big Cannons is optional: when it is installed, our own shells are added to it.
+[[dependencies."${mod_id}"]]
+modId = "createbigcannons"
+type = "optional"
+versionRange = "[5.11,)"
 ordering = "AFTER"
 side = "BOTH"
 

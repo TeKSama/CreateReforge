@@ -1,7 +1,5 @@
 {
   "values": [
-    "createreadyforwar:war_forge",
-    "createreadyforwar:war_drum",
     {
       "id": "createreadyforwar:he_plus_shell",
       "required": false

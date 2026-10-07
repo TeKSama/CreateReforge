@@ -1,0 +1,9 @@
+{
+  "parent": "createbigcannons:block/projectile_block_fuze_base",
+  "textures": {
+    "bottom": "createreadyforwar:block/projectile/he_plus_shell_bottom",
+    "particle": "createreadyforwar:block/projectile/he_plus_shell_top",
+    "side": "createreadyforwar:block/projectile/he_plus_shell",
+    "top": "createreadyforwar:block/projectile/he_plus_shell_top"
+  }
+}
