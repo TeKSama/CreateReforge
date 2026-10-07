@@ -15,6 +15,9 @@ public class ModItems {
     public static final DeferredItem<BlockItem> WAR_FORGE = ITEMS.register("war_forge",
         () -> new BlockItem(ModBlocks.WAR_FORGE.get(), new Item.Properties()));
 
+    public static final DeferredItem<BlockItem> WAR_DRUM = ITEMS.register("war_drum",
+        () -> new BlockItem(ModBlocks.WAR_DRUM.get(), new Item.Properties()));
+
     public static void register(IEventBus modEventBus) {
         ITEMS.register(modEventBus);
     }

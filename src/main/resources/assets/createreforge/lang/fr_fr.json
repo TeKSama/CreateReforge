@@ -1,5 +1,6 @@
 {
   "block.createreforge.war_forge": "Forge de guerre",
+  "block.createreforge.war_drum": "Tambour de guerre",
   "createreforge.tier.iron": "Fer",
   "createreforge.tier.diamond": "Diamant",
   "createreforge.tier.netherite": "Netherite",
@@ -91,5 +92,13 @@
   "affix.createreforge.tailwind": "Vent arrière",
   "affix.createreforge.tailwind.desc": "Augmente la vitesse de vol de l'élytre.",
   "affix.createreforge.spring_wings": "Ailes ressort",
-  "affix.createreforge.spring_wings.desc": "Augmente la hauteur de saut."
+  "affix.createreforge.spring_wings.desc": "Augmente la hauteur de saut.",
+  "createreforge.drum.header": "Tambour de guerre :",
+  "createreforge.drum.silent": "Silencieux : donnez-lui de la rotation par le dessous",
+  "createreforge.drum.reach": "Portée :",
+  "createreforge.drum.blocks": "%s blocs",
+  "createreforge.drum.effects": "Effets :",
+  "createreforge.drum.tempo": "Un battement toutes les",
+  "createreforge.drum.seconds": "%s s",
+  "createreforge.drum.hint": "Pleine puissance à %s RPM"
 }

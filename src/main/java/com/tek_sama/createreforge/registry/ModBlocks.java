@@ -1,6 +1,7 @@
 package com.tek_sama.createreforge.registry;
 
 import com.tek_sama.createreforge.Createreforge;
+import com.tek_sama.createreforge.block.WarDrumBlock;
 import com.tek_sama.createreforge.block.WarForgeBlock;
 
 import net.minecraft.world.level.block.SoundType;
@@ -23,6 +24,13 @@ public class ModBlocks {
             .noOcclusion()
             // the lava inside makes the machine glow
             .lightLevel(state -> state.getValue(WarForgeBlock.LAVA) > 0 ? 9 : 0)));
+
+    public static final DeferredBlock<WarDrumBlock> WAR_DRUM = BLOCKS.register("war_drum",
+        () -> new WarDrumBlock(BlockBehaviour.Properties.of()
+            .mapColor(MapColor.WOOD)
+            .requiresCorrectToolForDrops()
+            .strength(3.0f, 6.0f)
+            .sound(SoundType.WOOD)));
 
     public static void register(IEventBus modEventBus) {
         BLOCKS.register(modEventBus);

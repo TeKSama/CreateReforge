@@ -1,6 +1,7 @@
 package com.tek_sama.createreforge.registry;
 
 import com.tek_sama.createreforge.Createreforge;
+import com.tek_sama.createreforge.block.WarDrumBlockEntity;
 import com.tek_sama.createreforge.block.WarForgeBlockEntity;
 
 import net.minecraft.core.registries.Registries;
@@ -17,6 +18,11 @@ public class ModBlockEntityTypes {
     public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<WarForgeBlockEntity>> WAR_FORGE =
         BLOCK_ENTITY_TYPES.register("war_forge", () -> BlockEntityType.Builder
             .of(WarForgeBlockEntity::new, ModBlocks.WAR_FORGE.get())
+            .build(null));
+
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<WarDrumBlockEntity>> WAR_DRUM =
+        BLOCK_ENTITY_TYPES.register("war_drum", () -> BlockEntityType.Builder
+            .of(WarDrumBlockEntity::new, ModBlocks.WAR_DRUM.get())
             .build(null));
 
     public static void register(IEventBus modEventBus) {

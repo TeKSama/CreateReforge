@@ -1,5 +1,6 @@
 {
   "block.createreforge.war_forge": "War Forge",
+  "block.createreforge.war_drum": "War Drum",
   "createreforge.tier.iron": "Iron",
   "createreforge.tier.diamond": "Diamond",
   "createreforge.tier.netherite": "Netherite",
@@ -91,5 +92,13 @@
   "affix.createreforge.tailwind": "Tailwind",
   "affix.createreforge.tailwind.desc": "Increases elytra flight speed.",
   "affix.createreforge.spring_wings": "Spring Wings",
-  "affix.createreforge.spring_wings.desc": "Increases jump height."
+  "affix.createreforge.spring_wings.desc": "Increases jump height.",
+  "createreforge.drum.header": "War Drum:",
+  "createreforge.drum.silent": "Silent: give it rotation from below",
+  "createreforge.drum.reach": "Reach:",
+  "createreforge.drum.blocks": "%s blocks",
+  "createreforge.drum.effects": "Effects:",
+  "createreforge.drum.tempo": "Beats every",
+  "createreforge.drum.seconds": "%s s",
+  "createreforge.drum.hint": "Full power at %s RPM"
 }
