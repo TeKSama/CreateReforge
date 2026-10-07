@@ -80,6 +80,14 @@ versionRange = "[6.0.0,)"
 ordering = "AFTER"
 side = "BOTH"
 
+# Create Big Cannons is optional: when it is installed, our own shells are added to it.
+[[dependencies."${mod_id}"]]
+modId = "createbigcannons"
+type = "optional"
+versionRange = "[5.11,)"
+ordering = "AFTER"
+side = "BOTH"
+
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
 # that your mod requires GL version 3.2 or higher. Other features will be added. They are side aware so declaring this won't
 # stop your mod loading on the server for example.

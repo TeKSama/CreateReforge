@@ -1,0 +1,17 @@
+{
+  "parent": "createreadyforwar:block/dispersal_shell",
+  "overrides": [
+    {
+      "model": "createreadyforwar:item/dispersal_shell_head_fuze",
+      "predicate": {
+        "createbigcannons:fuze_state": 1.0
+      }
+    },
+    {
+      "model": "createreadyforwar:item/dispersal_shell_base_fuze",
+      "predicate": {
+        "createbigcannons:fuze_state": 2.0
+      }
+    }
+  ]
+}

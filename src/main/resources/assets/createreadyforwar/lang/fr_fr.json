@@ -100,5 +100,14 @@
   "createreadyforwar.drum.effects": "Effets :",
   "createreadyforwar.drum.tempo": "Un battement toutes les",
   "createreadyforwar.drum.seconds": "%s s",
-  "createreadyforwar.drum.hint": "Pleine puissance à %s RPM"
+  "createreadyforwar.drum.hint": "Pleine puissance à %s RPM",
+  "block.createreadyforwar.he_plus_shell": "Obus explosif renforcé (HE+)",
+  "block.createreadyforwar.flashbang_shell": "Obus flashbang",
+  "block.createreadyforwar.dispersal_shell": "Obus de désencerclement",
+  "block.createreadyforwar.cluster_shell": "Obus à sous-munitions",
+  "entity.createreadyforwar.he_plus_shell": "Obus explosif renforcé (HE+)",
+  "entity.createreadyforwar.flashbang_shell": "Obus flashbang",
+  "entity.createreadyforwar.dispersal_shell": "Obus de désencerclement",
+  "entity.createreadyforwar.cluster_shell": "Obus à sous-munitions",
+  "entity.createreadyforwar.cluster_bomblet": "Sous-munition"
 }

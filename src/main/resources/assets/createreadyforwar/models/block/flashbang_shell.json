@@ -1,0 +1,9 @@
+{
+  "parent": "createbigcannons:block/projectile_block",
+  "textures": {
+    "bottom": "createreadyforwar:block/projectile/flashbang_shell_bottom",
+    "particle": "createreadyforwar:block/projectile/flashbang_shell_top",
+    "side": "createreadyforwar:block/projectile/flashbang_shell",
+    "top": "createreadyforwar:block/projectile/flashbang_shell_top"
+  }
+}

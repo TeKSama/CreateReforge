@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createbigcannons"
+    }
+  ],
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "G": {
+      "tag": "c:dusts/glowstone"
+    },
+    "P": {
+      "tag": "c:gunpowders"
+    },
+    "S": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "pattern": [
+    " I ",
+    "IGI",
+    "IPI",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "createreadyforwar:flashbang_shell"
+  },
+  "show_notification": false
+}

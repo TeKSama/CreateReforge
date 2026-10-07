@@ -100,5 +100,14 @@
   "createreadyforwar.drum.effects": "Effects:",
   "createreadyforwar.drum.tempo": "Beats every",
   "createreadyforwar.drum.seconds": "%s s",
-  "createreadyforwar.drum.hint": "Full power at %s RPM"
+  "createreadyforwar.drum.hint": "Full power at %s RPM",
+  "block.createreadyforwar.he_plus_shell": "High Explosive Plus (HE+) Shell",
+  "block.createreadyforwar.flashbang_shell": "Flashbang Shell",
+  "block.createreadyforwar.dispersal_shell": "Dispersal Shell",
+  "block.createreadyforwar.cluster_shell": "Cluster Shell",
+  "entity.createreadyforwar.he_plus_shell": "High Explosive Plus (HE+) Shell",
+  "entity.createreadyforwar.flashbang_shell": "Flashbang Shell",
+  "entity.createreadyforwar.dispersal_shell": "Dispersal Shell",
+  "entity.createreadyforwar.cluster_shell": "Cluster Shell",
+  "entity.createreadyforwar.cluster_bomblet": "Bomblet"
 }

@@ -1,6 +1,22 @@
 {
   "values": [
     "createreadyforwar:war_forge",
-    "createreadyforwar:war_drum"
+    "createreadyforwar:war_drum",
+    {
+      "id": "createreadyforwar:he_plus_shell",
+      "required": false
+    },
+    {
+      "id": "createreadyforwar:flashbang_shell",
+      "required": false
+    },
+    {
+      "id": "createreadyforwar:dispersal_shell",
+      "required": false
+    },
+    {
+      "id": "createreadyforwar:cluster_shell",
+      "required": false
+    }
   ]
 }
