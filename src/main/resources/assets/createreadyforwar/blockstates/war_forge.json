@@ -1,0 +1,94 @@
+{
+  "variants": {
+    "part=left,facing=north": {
+      "model": "createreadyforwar:block/war_forge_left"
+    },
+    "part=right,facing=north,lava=0": {
+      "model": "createreadyforwar:block/war_forge_right_lava0"
+    },
+    "part=right,facing=north,lava=1": {
+      "model": "createreadyforwar:block/war_forge_right_lava1"
+    },
+    "part=right,facing=north,lava=2": {
+      "model": "createreadyforwar:block/war_forge_right_lava2"
+    },
+    "part=right,facing=north,lava=3": {
+      "model": "createreadyforwar:block/war_forge_right_lava3"
+    },
+    "part=right,facing=north,lava=4": {
+      "model": "createreadyforwar:block/war_forge_right_lava4"
+    },
+    "part=left,facing=east": {
+      "model": "createreadyforwar:block/war_forge_left",
+      "y": 90
+    },
+    "part=right,facing=east,lava=0": {
+      "model": "createreadyforwar:block/war_forge_right_lava0",
+      "y": 90
+    },
+    "part=right,facing=east,lava=1": {
+      "model": "createreadyforwar:block/war_forge_right_lava1",
+      "y": 90
+    },
+    "part=right,facing=east,lava=2": {
+      "model": "createreadyforwar:block/war_forge_right_lava2",
+      "y": 90
+    },
+    "part=right,facing=east,lava=3": {
+      "model": "createreadyforwar:block/war_forge_right_lava3",
+      "y": 90
+    },
+    "part=right,facing=east,lava=4": {
+      "model": "createreadyforwar:block/war_forge_right_lava4",
+      "y": 90
+    },
+    "part=left,facing=south": {
+      "model": "createreadyforwar:block/war_forge_left",
+      "y": 180
+    },
+    "part=right,facing=south,lava=0": {
+      "model": "createreadyforwar:block/war_forge_right_lava0",
+      "y": 180
+    },
+    "part=right,facing=south,lava=1": {
+      "model": "createreadyforwar:block/war_forge_right_lava1",
+      "y": 180
+    },
+    "part=right,facing=south,lava=2": {
+      "model": "createreadyforwar:block/war_forge_right_lava2",
+      "y": 180
+    },
+    "part=right,facing=south,lava=3": {
+      "model": "createreadyforwar:block/war_forge_right_lava3",
+      "y": 180
+    },
+    "part=right,facing=south,lava=4": {
+      "model": "createreadyforwar:block/war_forge_right_lava4",
+      "y": 180
+    },
+    "part=left,facing=west": {
+      "model": "createreadyforwar:block/war_forge_left",
+      "y": 270
+    },
+    "part=right,facing=west,lava=0": {
+      "model": "createreadyforwar:block/war_forge_right_lava0",
+      "y": 270
+    },
+    "part=right,facing=west,lava=1": {
+      "model": "createreadyforwar:block/war_forge_right_lava1",
+      "y": 270
+    },
+    "part=right,facing=west,lava=2": {
+      "model": "createreadyforwar:block/war_forge_right_lava2",
+      "y": 270
+    },
+    "part=right,facing=west,lava=3": {
+      "model": "createreadyforwar:block/war_forge_right_lava3",
+      "y": 270
+    },
+    "part=right,facing=west,lava=4": {
+      "model": "createreadyforwar:block/war_forge_right_lava4",
+      "y": 270
+    }
+  }
+}

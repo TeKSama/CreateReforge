@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "particle": "create:block/andesite_casing",
+    "top": "createreadyforwar:block/war_drum_top",
+    "side": "createreadyforwar:block/war_drum_side",
+    "bottom": "createreadyforwar:block/war_forge_rotation_input"
+  }
+}
